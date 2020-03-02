@@ -1,0 +1,120 @@
+body{
+    background-color: #e8e8e8;
+    background: url("Ellipse.png") 50% 135px no-repeat;
+}
+.content{
+    padding: 168px 0 137px 0;
+    max-width: 841px;
+    margin: 0px auto;
+}
+.content-top{
+text-align: center;
+    margin: 0px 0px 70px 0;
+}
+.content-top_category{
+
+    opacity: 0.6;
+    color: #273d46;
+    font-family: Arial;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    margin: 0px 0px 15px 0;
+}
+.content-top_title{
+    color: #273d46;
+    font-size: 36px;
+    line-height: 50px;
+    max-width: 725px;
+    margin: 0px auto;
+}
+
+.content-image img{
+    display: block;//* выравнивание по центру*//
+    margin-left: auto;
+    margin-right: auto;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.content-bottom {
+    padding: 0px 45px;
+}
+
+.content-bottom_text{
+    color: #7b888d;
+    font-size: 24px;
+    line-height: 40px;
+}
+.content-bottom_text p{
+    margin: 45px 0px 45px 0;
+}
+
+.content-bottom_info-list li{
+    font-family: Arial;
+    font-size: 20px;
+    margin: 0px 0px 13px 0px;
+    list-style-type: none; //*delite points*//
+    background: url("./items/check.png") left no-repeat;
+    padding: 0px 0px 0px 36px;
+}
+.content-bottom_info{
+
+}
+.content-bottom_info-list li:nth-child(1){
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    color: #273d46;
+    background: url("./items/check.png") left no-repeat;
+}
+.content-bottom_info-list li:nth-child(2){
+    color: #80b7b3;
+    background: url("./items/check.png") left no-repeat;
+}
+.content-bottom_info-list li:nth-child(3){
+    color: #273d46;
+    font-weight: bold;
+    background: url("./items/check.png") left no-repeat;
+}
+.content-bottom_info-list li:nth-child(4){
+    color: #273d46;
+    text-decoration: line-through;
+    background: url("./items/check.png") left no-repeat;
+}
+.content-bottom_info-list li:nth-child(4) span{
+    opacity: 0.3;
+}
+.content-bottom_info-list li:last-child{
+    margin: 0px;
+}
+
+.content-bottom_info_link {
+     margin: 40px;
+     line-height: 44px;
+     height: 44px;
+     padding: 0px 30px;
+     box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+     background-color: #80b7b3;
+     text-decoration: none;
+     display: inline-block;
+     border-radius: 20px;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+ }
+.content-bottom_info_link span{
+    padding: 0px 32px 0px 0px;
+    background: url("./items/arow.svg") right no-repeat;
+}
+.content-bottom_info_link:hover{
+    background-color: #552124;
+}
+.content-bottom_info_link:active{
+    position: relative;
+    top: 3px;
+
+}
